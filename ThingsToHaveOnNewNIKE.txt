@@ -1,0 +1,34 @@
+Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableListDesktopAppsFirst
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowFileExtensions -EnableShowFullPathInTitleBar
+Install-WindowsUpdate -AcceptEula
+Update-ExecutionPolicy Unrestricted
+Enable-RemoteDesktop
+Enable-MicrosoftUpdate
+ 
+Move-LibraryDirectory "Personal" "D:\JJ\Documents"
+Move-LibraryDirectory "My Pictures" "D:\JJ\Pictures"
+Move-LibraryDirectory "My Video" "D:\JJ\Videos"
+Move-LibraryDirectory "My Music" "D:\JJ\Music"
+Move-LibraryDirectory "Downloads" "D:\JJ\Downloads"
+ 
+Install-ChocolateyEnvironmentVariable "HOME" "D:\JJ"
+
+
+cinst DotNet3.5
+cinst ussf
+cinst lockhunter
+cinst TeraCopy
+cinst notepadplusplus
+cinst GoogleChrome
+cinst PureTextPlus
+cinst bulkrenameutility
+cinst ditto
+cinst sharpkeys
+cinst treesizefree
+cinst Listary
+cinst FoxitReader
+cinst DarkRoom
+cinst jing
+cinst truecrypt
+cinst keepass
+cinst autohotkey
