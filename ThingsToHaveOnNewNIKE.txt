@@ -11,15 +11,20 @@ Move-LibraryDirectory "My Video" "D:\JJ\Videos"
 Move-LibraryDirectory "My Music" "D:\JJ\Music"
 Move-LibraryDirectory "Downloads" "D:\JJ\Downloads"
  
+#.net framework 3.5
 cinst DotNet3.5
+# Universal Silent Switch Finder 1.5.0
 cinst ussf
+# LockHunter
 cinst lockhunter
 cinst TeraCopy
 cinst notepadplusplus
 cinst GoogleChrome
 cinst PureTextPlus
 cinst bulkrenameutility
+# clipboard accessing
 cinst ditto
+# remapping keyboard
 cinst sharpkeys
 cinst treesizefree
 cinst Listary
