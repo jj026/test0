@@ -11,9 +11,6 @@ Move-LibraryDirectory "My Video" "D:\JJ\Videos"
 Move-LibraryDirectory "My Music" "D:\JJ\Music"
 Move-LibraryDirectory "Downloads" "D:\JJ\Downloads"
  
-Install-ChocolateyEnvironmentVariable "HOME" "D:\JJ"
-
-
 cinst DotNet3.5
 cinst ussf
 cinst lockhunter
