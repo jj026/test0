@@ -6,9 +6,13 @@ Enable-RemoteDesktop
 Enable-MicrosoftUpdate
  
 Move-LibraryDirectory "Personal" "D:\JJ\Documents"
+Start-Sleep 30
 Move-LibraryDirectory "My Pictures" "D:\JJ\Pictures"
+Start-Sleep 30
 Move-LibraryDirectory "My Video" "D:\JJ\Videos"
+Start-Sleep 30
 Move-LibraryDirectory "My Music" "D:\JJ\Music"
+Start-Sleep 30
 Move-LibraryDirectory "Downloads" "D:\JJ\Downloads"
  
 #.net framework 3.5
